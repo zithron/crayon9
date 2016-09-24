@@ -22,9 +22,15 @@ h2 {
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #777777;
+}
+
+image-center {
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
 }
 
 .brand-logo img {
@@ -40,6 +46,7 @@ p {
 
 nav {
     box-shadow: none;
+    background-color: #f9f9f9;
 }
 
 nav ul a,
@@ -51,7 +58,6 @@ nav ul a:hover {
     /*    background-color: #777777;*/
     border-bottom: solid #55c1c4;
 }
-
 
 nav ul a.btn {
     margin-right: 0;
@@ -137,28 +143,58 @@ nav ul a.btn {
 
 #about {
     position: relative;
-    height: 700px;
+    height: auto;
     background-color: #55c1c4;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.alice-img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat-img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rabbit-img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-content h4 {
+    color: white;
+}
+
+.about-content p {
+    color: white;
 }
 
 
 /* Timeline */
 
 #timeline {
-    background-color: #e9f0f5;
+    background-color: #f9f9f9;
     height: auto;
     position: relative;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 /* Pengumuman */
 
 #pengumuman {
-    background: url(../img/geometry2.png) repeat center center;
     position: relative;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     height: auto;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -169,9 +205,21 @@ nav ul a.btn {
 }
 
 
+/* Parralax */
+
+
+/*
+.parallax-container {
+    height: 350px;
+    background-color: rgba(36, 192, 197, 0.75);
+}
+*/
+
+
 /* Galeri */
 
 #galeri {
+    background: url(../img/geometry2.png) repeat center center;
     padding-bottom: 80px;
     padding-top: 80px;
 }
@@ -236,14 +284,104 @@ nav ul a.btn {
 }
 
 
-/* Footer */
+/* Sponsor */
 
-footer {
-    position: relative;
+#sponsor {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-footer.page-footer {
+
+/*
+.sponsor-content {
+    margin-bottom: 50px;
+}
+*/
+
+.center-img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Footer */
+
+#footer {
+    position: relative;
+    background-color: #55c1c4;
+    height: 400px;
+}
+
+#footer.page-footer {
     /*     background: url(../img/) repeat center center;*/
     margin-top: 0px;
     position: relative;
+}
+
+.footer-content {
+    background-color: #55c1c4;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 2;
+    width: 540px;
+}
+
+.skewed-bg {
+    background: #55c1c4;
+    padding-top: 100px;
+    height: 400px;
+    margin-bottom: 0;
+    -webkit-transform: skew(-20deg, 0deg);
+    transform: skew(-15deg, 0deg);
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.skewed-bg .content {
+    -webkit-transform: skew(25deg, 0deg);
+    transform: skew(20deg, 0deg);
+    margin-left: 400px;
+    text-align: center;
+}
+
+.footer-copyright {
+    background-color: #3ba6a9;
+}
+
+#map {
+    height: 400px;
+    width: 800px;
+    margin-left: -298px;
+    position: absolute;
+}
+
+@media screen and (max-width: 980px) {
+    #map {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-content {
+        width: auto;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .skewed-bg {
+        margin-left: -200px;
+    }
+    #map {
+        width: 1030px;
+    }
 }
