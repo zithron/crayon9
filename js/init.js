@@ -3,7 +3,7 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    var owl = $('.owl-carousel');
+    var owl = $("#carousel-header .owl-carousel");
 	owl.owlCarousel({
 	    items:1,
 	    loop:true,
