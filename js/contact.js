@@ -5,7 +5,7 @@
                 lat: -7.767400,
                 lng: 110.376347
             },
-            zoom: 15
+            zoom: 17
         });
 
         var image = 'img/poin.png';
