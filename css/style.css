@@ -76,6 +76,7 @@ nav ul a.btn {
     -moz-border-bottom: transparent;
     -o-border-bottom: transparent;
     border-bottom: transparent;
+    color: white;
 }
 
 @media screen and (max-width: 1025px) {
