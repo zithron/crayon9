@@ -22,10 +22,18 @@ h2 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 300;
     color: #777777;
 }
+
+strong {
+    font-size: 1rem;
+    color: #727272;
+}
+
+
+/* centering image*/
 
 image-center {
     display: block;
@@ -46,7 +54,7 @@ image-center {
 
 nav {
     box-shadow: none;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.92);
     box-shadow: 0 0 1px rgba(0, 65, 94, 0.3);
 }
 
@@ -109,7 +117,14 @@ nav ul a.btn {
 }
 
 .header-text {
-    padding-top: 80px;
+    padding-top: 70px;
+    color: #808080;
+    position: relative;
+}
+
+.tagline-text {
+    font-size: 1.4rem;
+    font-weight: 300;
     color: #808080;
     position: relative;
 }
@@ -223,7 +238,38 @@ nav ul a.btn {
     padding-top: 80px;
 }
 
+#pengumuman .card .card-content {
+    padding-top: 10px;
+}
+
+#pengumuman .card .card-content .card-title {
+    font-weight: 400;
+    color: #55c1c4;
+}
+
+#pengumuman .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    margin-right: 0px;
+    color: #55c1c4;
+}
+
+#pengumuman .card .card-action {
+    z-index: initial;
+}
+
 .card .card-content p {
+    color: #777777;
+}
+
+#pengumuman .dropdown-content {
+    font-size: 12px;
+    color: #777777;
+}
+
+.share-it {
+    font-size: 11px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    margin-right: 16px;
     color: #777777;
 }
 
@@ -275,7 +321,7 @@ nav ul a.btn {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
 
 .gallery-box .gallery-box-caption .gallery-box-caption-content {
@@ -450,7 +496,7 @@ nav ul a.btn {
 @media screen and (max-width: 480px) {
     .social-media {
         float: none;
-          justify-content: center;
+        justify-content: center;
         padding-top: 0;
     }
 }
@@ -487,4 +533,80 @@ nav ul a.btn {
 
 .social-media .social-wrapper a {
     padding: 20%;
+}
+
+
+/* FAQ */
+
+#FAQ {
+    background-color: white;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.faq p {
+    font-size: 1.1rem;
+}
+
+.title-faq {
+    color: #808080;
+}
+
+.faq .row {
+    margin-bottom: 0px;
+}
+
+.faq .collapsible-body {
+    background-color: white;
+    border-bottom: none;
+    border-top: 1px solid #D4D5D6;
+}
+
+.faq .collapsible {
+    border: solid 2px #D4D5D6;
+    box-shadow: none;
+}
+
+.collapsible-header {
+    border-bottom: none;
+    position: relative;
+}
+
+.text-full-faq p {
+    font-size: 1.1rem;
+}
+
+#FAQ .zmdi-plus {
+    font-size: 15px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#FAQ .zmdi-minus {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+
+/* Gallery Page */
+
+#gallery-page {
+    background: url(../img/geometry2.png) repeat center center;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.share-logo {
+    float: right;
+}
+
+.share-logo i {
+    font-size: 20px;
+    margin-left: 20px;
 }
