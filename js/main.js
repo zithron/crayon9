@@ -1,15 +1,8 @@
 $(document).ready(function () {
     $('.collapsible-header').click(function () {
-        $('.zmdi').toggle(function () {
-            $('.zmdi-plus').css({
-                "display": "none"
-            });
-            $('.zmdi - minus').css({
-                "display": "inline"
-            });
-        });
+      
     });
-
+    
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.fixed-action-btn').fadeIn();
@@ -25,3 +18,13 @@ $(document).ready(function () {
         return false;
     });
 });
+
+
+//  $('.zmdi').toggle(function () {
+//            $('.zmdi-plus').css({
+//                "display": "none"
+//            });
+//            $('.zmdi - minus').css({
+//                "display": "inline"
+//            });
+//        });
