@@ -722,3 +722,7 @@ nav ul a.btn {
 .daftar-title {
     padding-left: 11.250px;
 }
+
+.btn-floating {
+    box-shadow: none;
+}
