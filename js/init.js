@@ -7,6 +7,7 @@
         $('.modal-trigger').leanModal();
         $('.materialboxed').materialbox();
         $('.fixed-action-btn').openFAB();
+        $('select').material_select();
         $('.dropdown-button').dropdown({
             inDuration: 300,
             outDuration: 225,

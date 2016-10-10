@@ -129,6 +129,16 @@ nav ul a.btn {
     position: relative;
 }
 
+.logo-header {
+    width: 30%;
+}
+
+@media screen and (max-width: 480px) {
+    .logo-header {
+        width: 50%;
+    }
+}
+
 
 /*
 .owl-theme .owl-dots,
@@ -672,9 +682,19 @@ nav ul a.btn {
 }
 
 .tutorial-title {
-    padding: 50px;
     font-size: 30px;
     position: relative;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    .tutorial-title {
+        font-size: 20px;
+        position: relative;
+        font-weight: 300;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 #tutorial {
@@ -683,13 +703,22 @@ nav ul a.btn {
     background: #f9f9f9;
 }
 
+
 /*
 #tutorial .card {
     background-color: 
 }
 */
 
-
-.card-image {
+#tutorial .card-image {
     padding-top: 25px;
+}
+#daftar-page {
+    background: url(../img/geometry2.png) repeat center center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.daftar-title {
+    padding-left: 11.250px;
 }
