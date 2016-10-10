@@ -6,6 +6,7 @@
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal-trigger').leanModal();
         $('.materialboxed').materialbox();
+        $('.fixed-action-btn').openFAB();
         $('.dropdown-button').dropdown({
             inDuration: 300,
             outDuration: 225,
@@ -24,15 +25,8 @@
             margin: 10,
             autoplay: true,
             dots: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 6000,
             autoplayHoverPause: true
-        });
-
-        $(".collapsible-header").click(function () {
-            $(".zmdi-plus").hide();
-            $(".zmdi-minus").css({
-                "display": "inline"
-            });
         });
     }); // end of document ready
 })(jQuery); // end of jQuery name space
