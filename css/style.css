@@ -117,13 +117,13 @@ nav ul a.btn {
 }
 
 .header-text {
-    padding-top: 70px;
+    padding-top: 50px;
     color: #808080;
     position: relative;
 }
 
 .tagline-text {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #808080;
     position: relative;
@@ -243,7 +243,7 @@ nav ul a.btn {
 }
 
 #pengumuman .card .card-content .card-title {
-    font-weight: 400;
+    font-weight: 300;
     color: #55c1c4;
 }
 
@@ -571,6 +571,9 @@ nav ul a.btn {
 .collapsible-header {
     border-bottom: none;
     position: relative;
+    line-height: 150%;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .text-full-faq p {
@@ -578,18 +581,21 @@ nav ul a.btn {
 }
 
 #FAQ .zmdi-plus {
+    display: inline;
     font-size: 15px;
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: -15%;
+    right: -4%;
+    color: #727272;
 }
 
 #FAQ .zmdi-minus {
     display: none;
     font-size: 15px;
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: -15%;
+    right: -4%;
+    color: #727272;
 }
 
 
@@ -598,7 +604,7 @@ nav ul a.btn {
 #gallery-page {
     background: url(../img/geometry2.png) repeat center center;
     height: auto;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -609,4 +615,81 @@ nav ul a.btn {
 .share-logo i {
     font-size: 20px;
     margin-left: 20px;
+}
+
+
+/* News Page */
+
+#news {
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+#news .card .card-content {
+    padding-top: 10px;
+}
+
+#news .card .card-content .card-title {
+    font-weight: 300;
+    color: #55c1c4;
+}
+
+#news .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    margin-right: 0px;
+    color: #55c1c4;
+}
+
+#news .card .card-action {
+    z-index: initial;
+}
+
+.card .card-content p {
+    color: #777777;
+}
+
+#news .dropdown-content {
+    font-size: 12px;
+    color: #777777;
+}
+
+
+/* Floating Button */
+
+.hide-fixed-btn {
+    display: none;
+    background-color: black;
+}
+
+.show-fixed-btn {
+    display: inline-block;
+}
+
+.responsive-video {
+    padding: 20px;
+}
+
+.tutorial-title {
+    padding: 50px;
+    font-size: 30px;
+    position: relative;
+}
+
+#tutorial {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+
+/*
+#tutorial .card {
+    background-color: 
+}
+*/
+
+
+.card-image {
+    padding-top: 25px;
 }
