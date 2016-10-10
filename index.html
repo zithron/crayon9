@@ -575,6 +575,13 @@
     </div>
     <!--End Of Modal-->
 
+    <!--Floating Button-->
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px; box-shadow:none;">
+        <a href="#homepage" class="btn-floating btn-large" style="background-color:#f9f9f9;">
+            <i class="zmdi zmdi-long-arrow-up" style="color:#727272;"></i>
+        </a>
+    </div>
+
     <!-- Modal Pengumuman -->
     <div id="pengumuman1" class="modal modal-fixed-footer">
         <div class="modal-content">
@@ -584,6 +591,7 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
         </div>
     </div>
+
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
@@ -658,13 +666,6 @@
     </footer>
     <!-- End of Footer -->
 
-    <!--Floating Button-->
-    <div class="fixed-action-btn" style="bottom: 45px; right: 24px; box-shadow:none;">
-        <a href="#homepage" class="btn-floating btn-large" style="background-color:#f9f9f9;">
-            <i class="zmdi zmdi-long-arrow-up" style="color:#727272;"></i>
-        </a>
-    </div>
-
     <!--Scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -673,6 +674,11 @@
     <script src="js/timeline.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#pengumuman1').openModal();
+        });
+    </script>
     <!--    <script src="js/about.js"></script>-->
 </body>
 
