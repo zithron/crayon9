@@ -255,6 +255,7 @@ nav ul a.btn {
 #pengumuman .card .card-content .card-title {
     font-weight: 300;
     color: #55c1c4;
+    line-height: 30px;
 }
 
 #pengumuman .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
@@ -281,6 +282,17 @@ nav ul a.btn {
     text-transform: capitalize;
     margin-right: 16px;
     color: #777777;
+}
+
+.date {
+    color: #ffffff;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #55c1c4;
 }
 
 
@@ -713,16 +725,41 @@ nav ul a.btn {
 #tutorial .card-image {
     padding-top: 25px;
 }
+
+.btn-floating {
+    box-shadow: none;
+}
+
+
+/* Pop Up Pengumuman */
+
+.text-popup {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+
+/* Daftar Page */
+
 #daftar-page {
     background: url(../img/geometry2.png) repeat center center;
     padding-top: 50px;
     padding-bottom: 80px;
 }
 
-.daftar-title {
-    padding-left: 11.250px;
+
+
+.select-wrapper input.select-dropdown {
+    color: #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+    ;
 }
 
-.btn-floating {
-    box-shadow: none;
+.select-wrapper span.caret {
+    color: #9e9e9e;
+}
+.prosedur-pendaftaran {
+/*    border: 1px solid #777777;*/
+/*    padding: 0px;*/
 }
