@@ -1,6 +1,9 @@
 $(document).ready(function () {
     $('.collapsible-header').click(function () {
-      
+        $('.zmdi').toggle(function () {
+            $('.zmdi-plus').addClass('.zmdi-hide');
+            $('.zmdi - minus').addClass('.zmdi-show')
+        });
     });
     
     $(window).scroll(function () {
@@ -20,11 +23,3 @@ $(document).ready(function () {
 });
 
 
-//  $('.zmdi').toggle(function () {
-//            $('.zmdi-plus').css({
-//                "display": "none"
-//            });
-//            $('.zmdi - minus').css({
-//                "display": "inline"
-//            });
-//        });

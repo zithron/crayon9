@@ -603,12 +603,19 @@ nav ul a.btn {
 }
 
 #FAQ .zmdi-plus {
-    display: inline;
+    display:inline;
     font-size: 15px;
     position: absolute;
     top: -15%;
     right: -4%;
     color: #727272;
+}
+.zmdi-show {
+    display: inline;    
+}
+
+.zmdi-hide {
+    display: none;
 }
 
 #FAQ .zmdi-minus {
