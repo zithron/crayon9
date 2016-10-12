@@ -1,11 +1,12 @@
 $(document).ready(function () {
     $('.collapsible-header').click(function () {
         $('.zmdi').toggle(function () {
-            $('.zmdi-plus').addClass('.zmdi-hide');
-            $('.zmdi - minus').addClass('.zmdi-show')
+            $(this).parent().find('.zmdi-plus').addClass('.zmdi-hide');
+            $(this).parent().find('.zmdi-minus').addClass('.zmdi-show')
         });
     });
     
+    $('.fixed-action-btn').fadeOut();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.fixed-action-btn').fadeIn();
