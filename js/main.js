@@ -1,11 +1,9 @@
 $(document).ready(function () {
     $('.collapsible-header').click(function () {
-        $('.zmdi').toggle(function () {
-            $(this).parent().find('.zmdi-plus').addClass('.zmdi-hide');
-            $(this).parent().find('.zmdi-minus').addClass('.zmdi-show')
-        });
+        $(this).children('.zmdi-plus').toggle();
+        $(this).children('.zmdi-minus').toggle();
     });
-    
+
     $('.fixed-action-btn').fadeOut();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -22,5 +20,3 @@ $(document).ready(function () {
         return false;
     });
 });
-
-
