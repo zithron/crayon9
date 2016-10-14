@@ -770,3 +770,7 @@ nav ul a.btn {
 /*    border: 1px solid #777777;*/
 /*    padding: 0px;*/
 }
+
+.btn-popup {
+    margin-top: 30px;
+}
