@@ -603,15 +603,16 @@ nav ul a.btn {
 }
 
 #FAQ .zmdi-plus {
-    display:inline;
+    display: inline;
     font-size: 15px;
     position: absolute;
     top: -15%;
     right: -4%;
     color: #727272;
 }
+
 .zmdi-show {
-    display: inline;    
+    display: inline;
 }
 
 .zmdi-hide {
@@ -755,8 +756,6 @@ nav ul a.btn {
     padding-bottom: 80px;
 }
 
-
-
 .select-wrapper input.select-dropdown {
     color: #9e9e9e;
     border-bottom: 1px solid #9e9e9e;
@@ -766,11 +765,21 @@ nav ul a.btn {
 .select-wrapper span.caret {
     color: #9e9e9e;
 }
+
 .prosedur-pendaftaran {
-/*    border: 1px solid #777777;*/
-/*    padding: 0px;*/
+    /*    border: 1px solid #777777;*/
+    /*    padding: 0px;*/
 }
 
 .btn-popup {
     margin-top: 30px;
 }
+
+.parallax-container {
+    height: 450px;
+    background-color: rgba(80, 193, 196, 0.75);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
