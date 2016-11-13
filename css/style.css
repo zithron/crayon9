@@ -783,3 +783,19 @@ nav ul a.btn {
     width: 100%;
 }
 
+
+
+
+
+/*Panduan*/
+
+#panduan {
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+span.badge.new {
+    background-color: #55c1c4;
+}
